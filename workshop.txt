@@ -60,3 +60,7 @@ To https://github.com/cdamken/git-workshop.git
 Branch master set up to track remote branch master from origin.
 carlos@snoopy:~/git-workshop$
 
+
+rm -rf git-workshop
+git clone https://github.com/cdamken/git-workshop.git
+
