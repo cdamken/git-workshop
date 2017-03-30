@@ -24,3 +24,39 @@ git log
 
 
 git reset --soft HEAD^ ( every ^ is one under) 
+
+
+git reset --hard HEAD^  
+
+git remote add origin https://github.com/cdamken/git-workshop.git
+
+
+Githup recommendations:
+
+echo "# git-workshop" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/cdamken/git-workshop.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/cdamken/git-workshop.git
+git push -u origin master
+
+
+carlos@snoopy:~/git-workshop$ git push -u origin master
+Username for 'https://github.com': cdamken
+Password for 'https://cdamken@github.com':
+Counting objects: 9, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 832 bytes | 0 bytes/s, done.
+Total 9 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/cdamken/git-workshop.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+carlos@snoopy:~/git-workshop$
+
