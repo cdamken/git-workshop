@@ -64,3 +64,9 @@ carlos@snoopy:~/git-workshop$
 rm -rf git-workshop
 git clone https://github.com/cdamken/git-workshop.git
 
+
+
+git pull
+
+
+
