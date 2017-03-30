@@ -1,3 +1,17 @@
 Workshop
-Hola!
+-----
+
+
+git init
+
+git status
+
+git add workshop.txt
+
+git commit -m "text"
+
+git diff
+
+git reset workshop.txt
+
 
