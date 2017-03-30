@@ -14,4 +14,13 @@ git diff
 
 git reset workshop.txt
 
+gitt commit -a -m "Die datei ist modifiziert"
 
+
+git checkout -- workshop.txt
+
+git log
+ git log --oneline
+
+
+git reset --soft HEAD^ ( every ^ is one under) 
